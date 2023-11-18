@@ -14,7 +14,7 @@ const RandomNumberGenerator = () => {
         <p className="para">
           Generate a random number in the range of 0 to 100
         </p>
-        <button className="button" type="button" onClick={generateNo()}>
+        <button className="button" type="button" onClick={generateNo}>
           Generate
         </button>
         <h1 className="heading heading2">{num}</h1>
